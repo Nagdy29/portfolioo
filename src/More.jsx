@@ -13,7 +13,7 @@ export const More = () => {
   return (
     <div className="">
       <div className="container mx-auto">
-        <div className="flex flex-col lg:flex-row gap-x-10 lg:mt-16">
+        <div className="flex flex-col lg:flex-row gap-x-10 lg:mt-16 p-14">
           <motion.div
             variants={fadeIn("right", 0.3)}
             initial="hidden"

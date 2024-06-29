@@ -12,9 +12,9 @@ export const About = () => {
   return (
     <div className="section" id="about">
       <div className="container mx-auto">
-        <div className="flex flex-col lg:flex-row gap-y-10 lg:items-center lg:gap-x-20 lg:gap-y-0">
+        <div className="flex  flex-col-reverse lg:flex-row gap-y-10 lg:items-center lg:gap-x-20 lg:gap-y-0">
           {/* img */}
-          <div>
+          <div className="">
             <motion.div
               variants={fadeIn("right", 0.3)}
               initial="hidden"
@@ -22,7 +22,11 @@ export const About = () => {
               viewport={{ once: false, amount: 0.3 }}
               className="flex bg-about relative bg-contain bg-no-repeat lg:w-[640px] h-[640px] mix-blend-lighten bg-top"
             >
-              <img src={img} alt="" className="rounded-3xl w-[600px]" />
+              <img
+                src={img}
+                alt=""
+                className="rounded-3xl w-[400px] h-[400px] mx-auto lg:w-full lg:h-full  "
+              />
               <div class="overlay"></div>
             </motion.div>
           </div>
@@ -41,21 +45,30 @@ export const About = () => {
                 I'm a Freelance Front-end Developer
               </h3>
               <p className="mb-6 text-white font-semibold max-w-lg">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-                mollitia, molestiae quas vel sint commodi repudiandae
-                consequuntur voluptatum laborum numquam blanditiis!
+                As a dedicated and passionate MERN stack developer, I specialize
+                in building dynamic and responsive web applications using
+                MongoDB, Express.js, React.js, and Node.js. My journey in web
+                development has equipped me with a strong foundation in both
+                front-end and back-end technologies, enabling me to deliver
+                comprehensive and efficient solutions. Front-End Development:
+                Proficient in React.js, Redux, HTML5, CSS3, and JavaScript
+                (ES6+), with a keen eye for UI/UX design and responsive web
+                development. Back-End Development: Extensive experience with
+                Node.js, Express.js, and RESTful APIs, ensuring robust and
+                scalable server-side applications.
               </p>
             </div>
             {/* stats */}
             <div className="flex gap-x-6 lg:gap-x-10 mb-12">
               <div>
-                <div className="text-[40px] font-tertiary text-gradient mb-2">
+                <div className="text-[40px] font-tertiary text-gradient mb-2 text-white">
                   <CountUp
                     className="text-teal-700 font-bold"
                     start={0}
                     end={1}
                     duration={3}
                   />
+                  +
                 </div>
                 <div className="font-primary text-white font-serif text-sm tracking-[2px]">
                   Years of <br />
@@ -67,7 +80,7 @@ export const About = () => {
                   <CountUp
                     className="text-teal-700 font-bold"
                     start={0}
-                    end={15}
+                    end={4}
                     duration={3}
                   />
                   +
@@ -99,7 +112,7 @@ export const About = () => {
               </button>
 
               <a
-                href="https://drive.google.com/file/d/1XUWa9oi1F42naP9aUW3Og8SwweygsD1-/view?usp=drive_link"
+                href="https://drive.google.com/file/d/1UrlWEm_5EzGIPCNpGdCD607cyQ46hmFG/view"
                 target="_blank"
                 className="text-slate-200 font-medium hover:text-slate-400"
               >

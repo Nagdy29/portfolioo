@@ -252,7 +252,7 @@ button:active {
 }
 
 .card-skills {
-  width: 100%;
+
   max-width: 700px;
   background: rgb(23, 23, 33);
   border: 0.1px solid rgb(133, 76, 230);

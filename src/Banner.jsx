@@ -28,7 +28,7 @@ export const Banner = () => {
             >
               <span className="text-white mr-4"> I am a </span>
               <TypeAnimation
-                sequence={["Front End React", 10000]}
+                sequence={["Mern Stack Development", 10000]}
                 className="text-teal-500"
                 repeat={Infinity}
               />

@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { fadeIn } from "./variants";
 // import images
 import img1 from "./assent/movies.jpg";
-import img2 from "./assent/das.jpg";
+import img2 from "./assent/mern.jpg";
 import img3 from "./assent/ec.jpg";
 import { Link } from "react-router-dom";
 
@@ -13,7 +13,7 @@ export const Work = () => {
   return (
     <div className="section my-12" id="work">
       <div className="container mx-auto">
-        <div className="flex flex-col lg:flex-row gap-x-10 lg:mt-16">
+        <div className="flex flex-col lg:flex-row gap-x-10 lg:mt-16 p-14">
           <motion.div
             variants={fadeIn("right", 0.3)}
             initial="hidden"
@@ -62,7 +62,7 @@ export const Work = () => {
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
                 <span className="text-3xl text-white">Movies app</span>
               </div>
-              <div className="absolute -bottom-full rounded-full left-12 group-hover:bottom-40 group-hover:left-80  transition-all duration-700 z-50">
+              <div className="absolute -bottom-full rounded-full left-12 group-hover:bottom-10 group-hover:left-40  lg:group-hover:bottom-40 lg:group-hover:left-80   transition-all duration-700 z-50">
                 <a
                   href="https://nagdy29.github.io/Movies-react/"
                   className="text-white text-2xl hover:text-slate-400 text-center"
@@ -90,15 +90,15 @@ export const Work = () => {
               />
               {/* subtitle */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                <span className="text-white">Web Design</span>
+                <span className="text-white">MernStack</span>
               </div>
               {/* title */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="text-3xl text-white">Dashbord</span>
+                <span className="text-3xl text-white">Elearing</span>
               </div>
-              <div className="absolute -bottom-full rounded-full left-12 group-hover:bottom-40 group-hover:left-80  transition-all duration-700 z-50">
+              <div className="absolute -bottom-full rounded-full left-12 group-hover:bottom-10 group-hover:left-40  lg:group-hover:bottom-40 lg:group-hover:left-80   transition-all duration-700 z-50">
                 <a
-                  href="https://nagdy29.github.io/Dashbord/"
+                  href="https://graduation-project-three-zeta.vercel.app/"
                   className="text-white text-2xl hover:text-slate-400 text-center"
                   target="_blank"
                 >
@@ -124,7 +124,7 @@ export const Work = () => {
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
                 <span className="text-3xl text-white">Ecommerce</span>
               </div>
-              <div className="absolute -bottom-full rounded-full left-12 group-hover:bottom-40 group-hover:left-80  transition-all duration-700 z-50">
+              <div className="absolute -bottom-full rounded-full left-12 group-hover:bottom-10 group-hover:left-40  lg:group-hover:bottom-40 lg:group-hover:left-80  transition-all duration-700 z-50">
                 <a
                   href="https://nagdy29.github.io/Ecommerce-App/"
                   className="text-white text-2xl hover:text-slate-400 text-center"
